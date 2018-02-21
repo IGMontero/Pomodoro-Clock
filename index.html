@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Free Code Camp - Pomodoro Clock</title>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Patua+One" rel="stylesheet">
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.2/css/bootstrap.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <div class="container" id="main-container">
+  <h1>Pomodoro Clock</h1>
+  <div class="d-inline-block length-container">
+    <p>SESSION LENGTH</p>
+    <button class="length-button" value="minus-session"><i class="fas fa-minus"></i></button>
+    <span class="length-number" id="session-length">25</span>
+    <button class="length-button" value="plus-session"><i class="fas fa-plus"></i></button>
+  </div>
+  <div class="d-inline-block length-container">
+    <p>BREAK LENGTH</p>
+    <button class="length-button" value="minus-break"><i class="fas fa-minus"></i></button>
+    <span class="length-number" id="break-length">5</span>
+    <button class="length-button" value="plus-break"><i class="fas fa-plus"></i></button>
+  </div>
+  <div>
+    <button value="start" id="start-button"><i class="fas fa-play-circle fa-2x"></i></button>
+    <p id="timer-status"></p>
+    <p id="clock"></p>
+    <button value="restart" id="restart"><i class="fas fa-redo"></i> <br>restart</button>
+    
+  </div>
+  <div class="progress">
+  <div id="progress-bar"class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="" aria-valuenow="" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>

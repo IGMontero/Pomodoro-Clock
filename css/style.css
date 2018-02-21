@@ -1,0 +1,92 @@
+body{
+  text-align:center;
+  margin-top:5%;
+  margin-bottom:5%;
+  font-family: 'Patua One', cursive;
+  background-color:#a09059;
+}
+
+#title{
+  color:white;
+}
+
+#main-container{
+  background-color:#383838;
+  border-radius:50%;
+  width:600px;
+  height:600px;
+  padding-top:50px;
+  color:white;
+}
+
+.length-container{
+  margin-bottom:40px;
+  margin-top:20px;
+  width:200px;
+  color:#a09059;
+}
+
+.length-container button{
+  border:none;
+  width:40px;
+  height:40px;
+  background:none;
+  color:#a09059;
+  font-size:30px;
+  outline:none;
+}
+
+.length-container button:hover{
+  color:#dbc57a;
+}
+
+.length-number{
+  font-size:30px;
+  margin:10px;
+  color:#969157;
+}
+
+#start-button{
+  font-size:60px;
+  background:none;
+  border:none;
+  outline:none;
+  margin-bottom:0px;
+  color:#448253;
+}
+
+#start-button:hover{
+  color:#78c98c;
+}
+
+#clock{
+  font-size:60px;
+  color:#a09059;
+}
+
+#timer-status{
+  font-size:15px;
+  color:#a09059;
+}
+
+#restart{
+  color:#a09059;
+  background:none;
+  border-radius:30%;
+  border:2px solid #a09059;
+  outline:none;
+}
+
+#restart:hover{
+  color:white;
+  
+}
+
+.progress{
+  background-color:#a09059;
+  margin-top: 50px;
+}
+
+.progress-bar{
+  background-color:#383838;
+}
